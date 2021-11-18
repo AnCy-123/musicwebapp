@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300&family=Raleway:wght@100;200;700&display=swap');
+body{
+  text-align: center;
+  font-family: raleway;
+  font-weight: 100;
+}
+b{
+  font-weight: 300;
+}
+.note{
+  font-size: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
+  
+}
+h1{
+  font-size: 60px;
+}
+.disc{
+  height: 60px;
+  width: 60px;
+}
+.btn{
+  Width: 250px;
+  Height:50px;
+  font-family: raleway;
+  font-size: 20px;
+  background: White;
+  border: 3px black solid;
+  outline: none;
+  transition-duration: 0.25s;
+}
+.btn:hover{
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+.btn:active{
+  background:#4d2782;
+  color:white;
+}
